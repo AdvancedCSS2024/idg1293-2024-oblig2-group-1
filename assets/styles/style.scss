@@ -5,7 +5,7 @@ html{
 }
 .background1, .background2, .background3, .background4{
     z-index: 0;
-    position: absolute;
+    position: relative;
 }
 
 header{
@@ -32,9 +32,9 @@ header{
     width: 100%;
 
     .background2{
-        position: absolute;
+        
         z-index: -1;
-        top: 250px;
+        top: 10px;
         
     }
     p{
@@ -52,13 +52,13 @@ header{
         top: 100%;
     }
     .bigstar {
-        position: absolute;
+        position: relative;
         width: 75px;
         height: auto;
         right: 15%;
     }
     .smallstar {
-        position: absolute;
+        position: relative;
         width: 50px;
         height: auto;
         right: 12%;
@@ -70,15 +70,15 @@ header{
     position: relative;
     width: 100%;
     .background3{
-        position: absolute;
-        top:700px;
+        position: relative;
+        top:-400px;
         z-index: -2;
     }
 }
 .pink{
     .background4{
-        top:1600px;
-        z-index: -3;
+        top:-1100px;
+        z-index: -1;
     }
 }
 
