@@ -1,11 +1,11 @@
-.background-darkblue {
+.atmosphere__moon {
   margin-top: 500px;
   background-color: #005BA7;
   height: 25vh;
   width: 100%;
   position: relative;
 }
-.background-darkblue:before {
+.atmosphere__moon:before {
   position: absolute;
   content: "";
   background-color: #FFFFFF;
@@ -16,7 +16,7 @@
   width: 50vw;
   bottom: 10vh;
 }
-.background-darkblue:after {
+.atmosphere__moon:after {
   position: absolute;
   content: "";
   background-color: #005BA7;
