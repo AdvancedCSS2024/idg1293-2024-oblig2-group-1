@@ -9,38 +9,9 @@
     }
 }
 
-.atmosphere__moon {
-    margin-top: 500px;
-    background-color: #005BA7;
-    height: 25vh;
-    width: 100%;
-    position: relative;
-    
-    &:before {
-        position: absolute;
-        content: "";
-        background-color: #FFFFFF;
-        border-radius: 100%;
-        border-top-left-radius: 0;
-        border-top-right-radius: 50%;
-       
-        height: 25vh;
-        width: 50vw;
-        bottom: 10vh;        
-    }
-    &:after{
-        position: absolute;
-        content: "";
-        background-color: #005BA7;
-        height: 25vh;
-        width: 49vw;
-        left: 50vw;
-        border-radius: 100%;
-        border-top-right-radius: 0;
-        bottom: 10vh;
-        
 
-    }
+
+  
     .atmosphere__moon--text {
 
     }
@@ -118,6 +89,7 @@
         }
     }
 }
+
 
 footer{
     .footer__textinfo {
