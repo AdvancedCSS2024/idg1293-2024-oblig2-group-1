@@ -4,7 +4,7 @@ html{
     margin: 0 auto;
 }
 .background1, .background2, .background3, .background4{
-    z-index: 0;
+    
     position: relative;
 }
 
@@ -35,13 +35,13 @@ header{
         
         z-index: -1;
         top: 10px;
-        
+        width: 100%;
     }
     p{
         position: absolute;
         color: white;
         left: 15%;
-        top: 20%;
+        top: 70%;
        
     }
     .moon-img {
@@ -71,15 +71,18 @@ header{
     position: relative;
     width: 100%;
     .background3{
-        position: relative;
+        
         top:-400px;
         z-index: -2;
+        width: 100%;
     }
 }
 .pink{
     .background4{
         top:-1200px;
-        z-index: -1;
+        z-index: -3;
+        width: 100%;
+       
     }
 }
 
