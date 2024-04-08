@@ -1,5 +1,13 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
 
+.atmosphere__title {
+    .header {
+
+    }
+    .text {
+
+    }
+}
 
 .atmosphere__moon {
     margin-top: 500px;
@@ -33,11 +41,95 @@
         
 
     }
+    .atmosphere__moon--text {
+
+    }
+    .atmosphere__moon--img {
+    .moon {
+        width: 250px;
+        height: auto;
+    }
+    .bigstar {
+        width: 75px;
+        height: auto;
+    }
+    .smallstar {
+        width: 50px;
+        height: auto;
+    }
+    }
 }
 
-.background-lightblue{
-    background-color: #00B1DC;
+.atmosphere__car {
+    .curvetext {
+
+    }
+    .car {
+        width: 250px;
+        height: auto;
+    }
 }
-.background-pink{
-    background-color: #C77161;
+
+
+.planet__humans {
+    .fartclouds {
+        width: 70%;
+        height: auto;
+    }
+    .lefthuman {
+        width: 250px;
+        height: auto;
+    }
+    .middlehuman {
+        width: 210px;
+        height: auto;
+    }
+    .righthuman {
+        width: 275px;
+        height: auto;
+    }
+}
+
+.planet__earth {
+    .planet__earth--list {
+        .list1 {
+
+        }
+        .list2 {
+
+        }
+        .list3 {
+
+        }
+        .list4 {
+
+        }
+        .list5 {
+
+        }
+    }
+    .planet__earth--img {
+        .earth {
+
+        }
+        .qrcode {
+            width: 125px;
+            height: auto;
+        }
+    }
+}
+
+footer{
+    .footer__textinfo {
+
+    }
+    .footer__logo {
+
+    }
+    .footer__link {
+
+    }
+    .footer__contact {
+
+    }
 }

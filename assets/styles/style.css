@@ -27,15 +27,42 @@
   border-top-right-radius: 0;
   bottom: 10vh;
 }
-
-.background-lightblue {
-  background-color: #00B1DC;
+.atmosphere__moon .atmosphere__moon--img .moon {
+  width: 250px;
+  height: auto;
+}
+.atmosphere__moon .atmosphere__moon--img .bigstar {
+  width: 75px;
+  height: auto;
+}
+.atmosphere__moon .atmosphere__moon--img .smallstar {
+  width: 50px;
+  height: auto;
 }
 
-.background-pink {
-  background-color: #C77161;
+.atmosphere__car .car {
+  width: 250px;
+  height: auto;
 }
 
-footer {
-  background-color: #005BA7;
+.planet__humans .fartclouds {
+  width: 70%;
+  height: auto;
+}
+.planet__humans .lefthuman {
+  width: 250px;
+  height: auto;
+}
+.planet__humans .middlehuman {
+  width: 210px;
+  height: auto;
+}
+.planet__humans .righthuman {
+  width: 275px;
+  height: auto;
+}
+
+.planet__earth .planet__earth--img .qrcode {
+  width: 125px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
