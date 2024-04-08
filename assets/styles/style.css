@@ -1,34 +1,105 @@
-.atmosphere__moon .atmosphere__moon--img .moon {
+html {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+}
+
+.background1, .background2, .background3, .background4 {
+  z-index: 0;
+  position: relative;
+}
+
+header {
+  position: relative;
+  width: 100%;
+}
+header .background1 {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+}
+header h1 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+header p {
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.moon {
+  position: relative;
+  width: 100%;
+}
+.moon .background2 {
+  z-index: -1;
+  top: 10px;
+}
+.moon p {
+  position: absolute;
+  color: white;
+  left: 15%;
+  top: 20%;
+}
+.moon .moon-img {
+  position: absolute;
+  max-width: 20%;
+  height: auto;
+  right: 15%;
+  top: 45%;
+}
+.moon .bigstar {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 15%;
+  top: 40%;
+}
+.moon .smallstar {
+  position: absolute;
+  width: 3%;
+  height: auto;
+  right: 12%;
+  top: 50%;
+}
+
+.lightblue {
+  position: relative;
+  width: 100%;
+}
+.lightblue .background3 {
+  position: relative;
+  top: -400px;
+  z-index: -2;
+}
+
+.pink .background4 {
+  top: -1200px;
+  z-index: -1;
+}
+
+.car {
   width: 250px;
   height: auto;
 }
-.atmosphere__moon .atmosphere__moon--img .bigstar {
-  width: 75px;
-  height: auto;
-}
-.atmosphere__moon .atmosphere__moon--img .smallstar {
-  width: 50px;
-  height: auto;
-}
 
-.atmosphere__car .car {
-  width: 250px;
-  height: auto;
-}
-
-.planet__humans .fartclouds {
+.fartclouds {
   width: 70%;
   height: auto;
 }
-.planet__humans .lefthuman {
+
+.lefthuman {
   width: 250px;
   height: auto;
 }
-.planet__humans .middlehuman {
+
+.middlehuman {
   width: 210px;
   height: auto;
 }
-.planet__humans .righthuman {
+
+.righthuman {
   width: 275px;
   height: auto;
 }

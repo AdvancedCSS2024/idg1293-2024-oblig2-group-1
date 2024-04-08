@@ -1,46 +1,97 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
-
-.atmosphere__title {
-    .header {
-
-    }
-    .text {
-
-    }
+html{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.background1, .background2, .background3, .background4{
+    z-index: 0;
+    position: relative;
 }
 
-.atmosphere__moon {
-    .atmosphere__moon--text {
+header{
+    position: relative;
+    width: 100%;
+        .background1{
+            position: absolute;
+            width: 100%;
+            z-index: 0;
+        }
+        h1{
+            position: absolute;
+            top: 20%;
+            left: 10%;
+        }
+        p{
+            position: absolute;
+            top: 40%;
+            left: 10%;
+        }
+}
+.moon{
+    position: relative;
+    width: 100%;
 
+    .background2{
+        
+        z-index: -1;
+        top: 10px;
+        
     }
-    .atmosphere__moon--img {
-    .moon {
-        width: 250px;
+    p{
+        position: absolute;
+        color: white;
+        left: 15%;
+        top: 20%;
+       
+    }
+    .moon-img {
+        position: absolute;
+        max-width: 20%;
         height: auto;
+        right: 15%;
+        top: 45%;
     }
     .bigstar {
-        width: 75px;
+        position: absolute;
+        width: 5%;
         height: auto;
+        right: 15%;
+        top: 40%;
     }
     .smallstar {
-        width: 50px;
+        position: absolute;
+        width: 3%;
         height: auto;
-    }
+        right: 12%;
+        top: 50%;
     }
 }
 
-.atmosphere__car {
-    .curvetext {
-
+.lightblue{
+    position: relative;
+    width: 100%;
+    .background3{
+        position: relative;
+        top:-400px;
+        z-index: -2;
     }
+}
+.pink{
+    .background4{
+        top:-1200px;
+        z-index: -1;
+    }
+}
+
+
+
     .car {
         width: 250px;
         height: auto;
     }
-}
 
 
-.planet__humans {
+
     .fartclouds {
         width: 70%;
         height: auto;
@@ -57,7 +108,7 @@
         width: 275px;
         height: auto;
     }
-}
+
 
 .planet__earth {
     .planet__earth--list {
