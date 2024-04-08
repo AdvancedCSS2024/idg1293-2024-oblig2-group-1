@@ -44,23 +44,24 @@ header p {
 }
 .moon .moon-img {
   position: absolute;
-  width: 250px;
-  height: auto;
-  right: 20%;
-  top: 100%;
-}
-.moon .bigstar {
-  position: relative;
-  width: 75px;
+  max-width: 20%;
   height: auto;
   right: 15%;
+  top: 45%;
+}
+.moon .bigstar {
+  position: absolute;
+  width: 5%;
+  height: auto;
+  right: 15%;
+  top: 40%;
 }
 .moon .smallstar {
-  position: relative;
-  width: 50px;
+  position: absolute;
+  width: 3%;
   height: auto;
   right: 12%;
-  top: 0%;
+  top: 50%;
 }
 
 .lightblue {
