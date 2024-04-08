@@ -1,46 +1,96 @@
 // USE THIS FILE TO CREATE THE LAYOUT AND SPECIFIC RULES FOR SCREENSHOTS 1 and 2
-
-.atmosphere__title {
-    .header {
-
-    }
-    .text {
-
-    }
+html{
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.background1, .background2, .background3, .background4{
+    z-index: 0;
+    position: absolute;
 }
 
-.atmosphere__moon {
-    .atmosphere__moon--text {
+header{
+    position: relative;
+    width: 100%;
+        .background1{
+            position: absolute;
+            width: 100%;
+            z-index: 0;
+        }
+        h1{
+            position: absolute;
+            top: 20%;
+            left: 10%;
+        }
+        p{
+            position: absolute;
+            top: 40%;
+            left: 10%;
+        }
+}
+.moon{
+    position: relative;
+    width: 100%;
 
+    .background2{
+        position: absolute;
+        z-index: -1;
+        top: 250px;
+        
     }
-    .atmosphere__moon--img {
-    .moon {
+    p{
+        position: absolute;
+        color: white;
+        left: 15%;
+        top: 20%;
+       
+    }
+    .moon-img {
+        position: absolute;
         width: 250px;
         height: auto;
+        right: 20%;
+        top: 100%;
     }
     .bigstar {
+        position: absolute;
         width: 75px;
         height: auto;
+        right: 15%;
     }
     .smallstar {
+        position: absolute;
         width: 50px;
         height: auto;
-    }
+        right: 12%;
+        top: 0%;
     }
 }
 
-.atmosphere__car {
-    .curvetext {
-
+.lightblue{
+    position: relative;
+    width: 100%;
+    .background3{
+        position: absolute;
+        top:700px;
+        z-index: -2;
     }
+}
+.pink{
+    .background4{
+        top:1600px;
+        z-index: -3;
+    }
+}
+
+
+
     .car {
         width: 250px;
         height: auto;
     }
-}
 
 
-.planet__humans {
+
     .fartclouds {
         width: 70%;
         height: auto;
@@ -57,7 +107,7 @@
         width: 275px;
         height: auto;
     }
-}
+
 
 .planet__earth {
     .planet__earth--list {
