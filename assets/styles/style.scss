@@ -201,16 +201,25 @@ header{
 }
 
 footer{
+    z-index: 500;
     .footer__textinfo {
-
+        background-color: #FFFFFF;
     }
-    .footer__logo {
-
-    }
-    .footer__link {
-
-    }
-    .footer__contact {
-
+    .footer__color {
+        background-color: #005BA7;
+        .footer__logo {
+            flex: 1;
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .footer__link {
+            flex: 1;
+            text-align: center;
+        }
+        .footer__contact {
+            flex: 1;
+            text-align: right;
+        }
     }
 }
