@@ -8,8 +8,15 @@ body{
     position: absolute;
     width: 100%;
 }
+
+@font-face {
+    font-family: "marydale";
+    src: url('../font/Marydale\ Regular.ttf')
+}
+
+
+
 .background2, .background3, .background4{
-    
     position: absolute;
 }
 
@@ -24,13 +31,25 @@ header{
         }
         h1{
             position: absolute;
-            top: 20%;
+            font-family: sans-serif;
+            top: 10%;
             left: 10%;
+            color: #005BA7;
+            font-size: 5.5vw;
+            max-width: 20%;
+            span{
+                color: green;
+            }
         }
+        
         p{
             position: absolute;
-            top: 40%;
+            top: 20vw;
             left: 10%;
+            font-family: "marydale", sans-serif;
+            font-size: 1.5vw;
+            width: 30ch;
+            font-weight: bold;
         }
 }
 .moon{
