@@ -230,7 +230,11 @@ header{
 }
 
 footer{
-    z-index: 500;
+    position: relative;
+    z-index: 5;
+    bottom: -60vh;
+       
+    
     .footer__textinfo {
         background-color: #FFFFFF;
     }
