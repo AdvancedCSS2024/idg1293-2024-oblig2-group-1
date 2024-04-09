@@ -7,6 +7,7 @@ html{
 body{
     position: absolute;
     width: 100%;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -62,7 +63,7 @@ header{
         z-index: -1;
         top: 1%;
         width: 100%;
-        top: -20vw;
+        top: -30vw;
     }
     p{
         position: absolute;
@@ -95,7 +96,7 @@ header{
 }
 .background3{
     z-index: -2;
-    top: 50vw;
+    top: 45vw;
     width: 100%;
 }
 .lightblue{
@@ -103,12 +104,13 @@ header{
     width: 100%;
     
 }
+
 .pink{
     .background4{
         position: relative;
         z-index: -3;
         width: 100%;
-        top: 51.6vw;
+        top: 51vw;
        
     }
 }
@@ -142,17 +144,18 @@ header{
         top: 90vw;
         z-index: 4;
         width: 100vw;
+        max-width: 100%;
     }
     .lefthuman {
-        width: 17%;
+        max-width: 17%;
         height: auto;
     }
     .middlehuman {
-        width: 15%;
+        max-width: 15%;
         height: auto;
     }
     .righthuman {
-        width: 20%;
+        max-width: 20%;
         height: auto;
         left: 100%;
     }
