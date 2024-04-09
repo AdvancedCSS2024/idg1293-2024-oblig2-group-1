@@ -2,19 +2,25 @@
 html{
     background-color: #FFFFFF;
     margin: 0 auto;
-}
-.background1, .background2, .background3, .background4{
     
-    position: relative;
+}
+body{
+    position: absolute;
+    width: 100%;
+}
+.background2, .background3, .background4{
+    
+    position: absolute;
 }
 
 header{
     position: relative;
     width: 100%;
         .background1{
-            position: absolute;
+            position: relative;
             width: 100%;
             z-index: 0;
+            
         }
         h1{
             position: absolute;
@@ -31,11 +37,13 @@ header{
     position: relative;
     width: 100%;
 
+
     .background2{
         
         z-index: -1;
-        top: 10px;
+        top: 1%;
         width: 100%;
+        top: -20vw;
     }
     p{
         position: absolute;
@@ -66,22 +74,22 @@ header{
         top: 50%;
     }
 }
-
+.background3{
+    z-index: -2;
+    top: 50vw;
+    width: 100%;
+}
 .lightblue{
     position: relative;
     width: 100%;
-    .background3{
-        
-        top:-400px;
-        z-index: -2;
-        width: 100%;
-    }
+    
 }
 .pink{
     .background4{
-        top:-1200px;
+        position: relative;
         z-index: -3;
         width: 100%;
+        top: 51.6vw;
        
     }
 }
@@ -89,6 +97,7 @@ header{
 
 
     .car {
+        position: absolute;
         width: 250px;
         height: auto;
     }
@@ -96,6 +105,7 @@ header{
 
 
     .fartclouds {
+        position: absolute;
         width: 70%;
         height: auto;
     }

@@ -3,8 +3,13 @@ html {
   margin: 0 auto;
 }
 
-.background1, .background2, .background3, .background4 {
-  position: relative;
+body {
+  position: absolute;
+  width: 100%;
+}
+
+.background2, .background3, .background4 {
+  position: absolute;
 }
 
 header {
@@ -12,7 +17,7 @@ header {
   width: 100%;
 }
 header .background1 {
-  position: absolute;
+  position: relative;
   width: 100%;
   z-index: 0;
 }
@@ -33,8 +38,9 @@ header p {
 }
 .moon .background2 {
   z-index: -1;
-  top: 10px;
+  top: 1%;
   width: 100%;
+  top: -20vw;
 }
 .moon p {
   position: absolute;
@@ -64,28 +70,32 @@ header p {
   top: 50%;
 }
 
+.background3 {
+  z-index: -2;
+  top: 50vw;
+  width: 100%;
+}
+
 .lightblue {
   position: relative;
   width: 100%;
 }
-.lightblue .background3 {
-  top: -400px;
-  z-index: -2;
-  width: 100%;
-}
 
 .pink .background4 {
-  top: -1200px;
+  position: relative;
   z-index: -3;
   width: 100%;
+  top: 51.6vw;
 }
 
 .car {
+  position: absolute;
   width: 250px;
   height: auto;
 }
 
 .fartclouds {
+  position: absolute;
   width: 70%;
   height: auto;
 }
