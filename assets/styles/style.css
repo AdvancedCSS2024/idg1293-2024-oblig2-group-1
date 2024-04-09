@@ -76,6 +76,31 @@ header p {
   height: auto;
   right: 15%;
   top: -7vw;
+  animation-name: moonhover;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes moonhover {
+  0% {
+    top: -7vw;
+  }
+  50% {
+    top: -5vw;
+  }
+  100% {
+    top: -7vw;
+  }
+}
+@keyframes starscale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 .moon .bigstar {
   position: absolute;
@@ -83,6 +108,9 @@ header p {
   height: auto;
   right: 12%;
   top: -10vw;
+  animation-name: starscale;
+  animation-duration: 2.7s;
+  animation-iteration-count: infinite;
 }
 .moon .smallstar {
   position: absolute;
@@ -90,6 +118,9 @@ header p {
   height: auto;
   right: 9%;
   top: -2vw;
+  animation-name: starscale;
+  animation-duration: 1.2s;
+  animation-iteration-count: infinite;
 }
 
 .background3 {
