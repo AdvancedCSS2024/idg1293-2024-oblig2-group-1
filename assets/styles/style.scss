@@ -57,7 +57,12 @@ header{
     position: relative;
     width: 100%;
 
-
+    p{
+        font-family: "marydale", sans-serif;
+        font-size: 1.7vw;
+        font-weight: bold;
+        width: 28ch
+    }
     .background2{
         
         z-index: -1;
@@ -68,8 +73,8 @@ header{
     p{
         position: absolute;
         color: white;
-        left: 15%;
-        top: 70%;
+        left: 10%;
+        top: 75%;
        
     }
     .moon-img {
@@ -77,21 +82,21 @@ header{
         max-width: 20%;
         height: auto;
         right: 15%;
-        top: 45%;
+        top: -7vw;
     }
     .bigstar {
         position: absolute;
         width: 5%;
         height: auto;
         right: 12%;
-        bottom: 40%;
+        top: -10vw;
     }
     .smallstar {
         position: absolute;
         width: 3%;
         height: auto;
         right: 9%;
-        top: 50%;
+        top: -2vw;
     }
 }
 .background3{
