@@ -160,4 +160,28 @@ header p {
   position: absolute;
   top: 110vw;
   right: 1.2vw;
+}
+
+footer {
+  z-index: 500;
+}
+footer .footer__textinfo {
+  background-color: #FFFFFF;
+}
+footer .footer__color {
+  background-color: #005BA7;
+}
+footer .footer__color .footer__logo {
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+footer .footer__color .footer__link {
+  flex: 1;
+  text-align: center;
+}
+footer .footer__color .footer__contact {
+  flex: 1;
+  text-align: right;
 }/*# sourceMappingURL=style.css.map */
