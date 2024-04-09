@@ -165,8 +165,8 @@ header{
     }
     .planet__humans{
         position: absolute;
-        left: 25vw;
-        top: 90vw;
+        left: 22vw;
+        top: 80vw;
         z-index: 4;
         width: 100vw;
         max-width: 100%;
@@ -174,15 +174,18 @@ header{
     .lefthuman {
         max-width: 17%;
         height: auto;
+        translate: -25%;
     }
     .middlehuman {
         max-width: 15%;
         height: auto;
+        translate: 20% -15%;
     }
     .righthuman {
         max-width: 20%;
         height: auto;
         left: 100%;
+        translate: 25% -5%;
     }
 
 
@@ -224,7 +227,7 @@ header{
 }
 .globe-pic{
     position: absolute;
-    top: 110vw;
+    top: 100vw;
     right: 1.2vw;
     animation: globerotate 120s infinite;
 }
