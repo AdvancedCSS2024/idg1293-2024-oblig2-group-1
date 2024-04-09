@@ -59,14 +59,14 @@ header p {
   position: absolute;
   width: 5%;
   height: auto;
-  right: 15%;
-  top: 40%;
+  right: 12%;
+  bottom: 40%;
 }
 .moon .smallstar {
   position: absolute;
   width: 3%;
   height: auto;
-  right: 12%;
+  right: 9%;
   top: 50%;
 }
 
@@ -90,29 +90,34 @@ header p {
 
 .car {
   position: absolute;
-  width: 250px;
+  width: 20%;
   height: auto;
+  translate: 200%;
+  top: 22vw;
 }
 
 .fartclouds {
   position: absolute;
   width: 70%;
   height: auto;
+  translate: 22%;
+  top: 35vw;
 }
 
 .lefthuman {
-  width: 250px;
+  width: 17%;
   height: auto;
 }
 
 .middlehuman {
-  width: 210px;
+  width: 15%;
   height: auto;
 }
 
 .righthuman {
-  width: 275px;
+  width: 20%;
   height: auto;
+  left: 100%;
 }
 
 .planet__earth .planet__earth--img .qrcode {
