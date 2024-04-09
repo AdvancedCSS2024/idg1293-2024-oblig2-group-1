@@ -119,6 +119,14 @@ header p {
   top: 35vw;
 }
 
+.planet__humans {
+  position: absolute;
+  left: 25vw;
+  top: 90vw;
+  z-index: 4;
+  width: 100vw;
+}
+
 .lefthuman {
   width: 17%;
   height: auto;
@@ -138,4 +146,10 @@ header p {
 .planet__earth .planet__earth--img .qrcode {
   width: 125px;
   height: auto;
+}
+
+.globe-pic {
+  position: absolute;
+  top: 110vw;
+  right: 1.2vw;
 }/*# sourceMappingURL=style.css.map */
