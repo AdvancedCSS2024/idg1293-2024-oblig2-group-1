@@ -214,10 +214,19 @@ header{
         }
     }
 }
+@keyframes globerotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
 .globe-pic{
     position: absolute;
     top: 110vw;
     right: 1.2vw;
+    animation: globerotate 120s infinite;
 }
 
 footer{
