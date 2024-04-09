@@ -229,7 +229,7 @@ header{
     position: absolute;
     top: 100vw;
     right: 1.2vw;
-    animation: globerotate 120s infinite;
+    animation: globerotate 120s linear infinite;
 }
 
 footer{
