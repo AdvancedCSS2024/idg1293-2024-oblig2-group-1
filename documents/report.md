@@ -18,8 +18,6 @@ We ended up using relative positioning on the fist wave and absolute on the othe
     Humans: Here we used to forms of css animation. One where we rotate them a couple of degrees so it looks like they are walking/dancing on top of the globe. Another that translate the Y-axis so they move up and down a small amount.
     Globe: Here we did a simple rotate animation that turns the earth around 360degrees a period of time so earth is rotating. further giving into the illusion that the people on top are walking along the surface.
 
-
-
 # css drawing:
 On the first attempt we tried draw the background waves in css, but it ended up to be difficult to scale properly. insted we chose to draw the ntnu-logo in the footer with css. the logo has the class "ntnu-logo" and uses psuedoelements ::before and ::after in order to draw the squere and circle for the logo.
 
