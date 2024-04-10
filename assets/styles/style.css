@@ -256,6 +256,7 @@ footer .footer__color {
   color: #FFFFFF;
   font-family: "marydale", sans-serif;
   font-weight: bold;
+  padding: 5%;
 }
 footer .footer__color .footer__logo {
   flex: 1;
@@ -263,7 +264,7 @@ footer .footer__color .footer__logo {
   height: auto;
   display: block;
   text-align: center;
-  margin-left: 2%;
+  margin-left: 8%;
   margin-right: 3%;
 }
 footer .footer__color .footer__link {
@@ -358,7 +359,7 @@ footer .footer__color .footer__contact {
 
 .ntnulogo {
   content: "";
-  position: relative;
+  position: absolute;
   background-color: white;
   width: 10vw;
   height: 10vw;
