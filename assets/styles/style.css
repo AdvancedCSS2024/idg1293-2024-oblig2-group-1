@@ -213,7 +213,7 @@ header p {
     transform: translateY(-2vw) rotate(-5deg);
   }
 }
-.planet__earth .planet__earth--img .qrcode {
+.planetearth--img .qrcode {
   width: 125px;
   height: auto;
 }
@@ -251,6 +251,11 @@ footer .footer__textinfo {
 }
 footer .footer__color {
   background-color: #005BA7;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-family: "marydale", sans-serif;
+  font-weight: bold;
 }
 footer .footer__color .footer__logo {
   flex: 1;
@@ -268,14 +273,6 @@ footer .footer__color .footer__link {
 footer .footer__color .footer__contact {
   flex: 1;
   text-align: center;
-}
-
-.footer__color {
-  display: flex;
-  align-items: center;
-  color: #FFFFFF;
-  font-family: "marydale", sans-serif;
-  font-weight: bold;
 }
 
 .earth {

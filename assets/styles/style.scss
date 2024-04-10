@@ -210,18 +210,13 @@ header{
         }
     }
 
-
-.planet__earth {
-    .planet__earth--img {
-        .earth {
-
-        }
-        .qrcode {
-            width: 125px;
-            height: auto;
-        }
+.planetearth--img {
+    .qrcode {
+        width: 125px;
+        height: auto;
     }
 }
+
 @keyframes globerotate {
     0% {
         transform: rotate(0deg);
