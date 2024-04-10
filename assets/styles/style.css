@@ -220,6 +220,7 @@ header .ball {
   }
 }
 .planetearth--img .qrcode {
+  position: absolute;
   width: 125px;
   height: auto;
   transform: translate(0%, 1400%);
