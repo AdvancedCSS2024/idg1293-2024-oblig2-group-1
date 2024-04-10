@@ -47,6 +47,11 @@ header p {
   width: 30ch;
   font-weight: bold;
 }
+header .ball {
+  position: absolute;
+  top: 0vw;
+  right: 0;
+}
 
 .moon {
   position: relative;
