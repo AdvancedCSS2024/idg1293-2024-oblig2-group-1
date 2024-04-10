@@ -12,3 +12,10 @@ First we tried to draw the background "waves" in css, but realised after som tim
 
 ## Why
 
+# Tasks: 
+
+- Eirik draws the ntnu logo
+
+- Stian makes box colored pink behind earth
+
+- Emil does footer structure
