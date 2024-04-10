@@ -18,15 +18,7 @@ We ended up using relative positioning on the fist wave and absolute on the othe
     Humans:
     Globe:
 
-
 ## Why
-
-# Tasks: 
 
 # css drawing:
 On the first attempt we tried draw the background waves in css, but it ended up to be difficult to scale properly. insted we chose to draw the ntnu-logo in the footer with css. the logo has the class "ntnu-logo" and uses psuedoelements ::before and ::after in order to draw the squere and circle for the logo.
-
-
-
-
-- Emil does footer structure
