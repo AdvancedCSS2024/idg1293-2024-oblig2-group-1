@@ -51,6 +51,7 @@ header .ball {
   position: absolute;
   top: 0vw;
   right: 0;
+  max-width: 10%;
 }
 
 .moon {
@@ -270,7 +271,7 @@ footer .footer__color .footer__logo {
   height: auto;
   display: block;
   text-align: center;
-  margin-left: 8%;
+  margin-left: 7%;
   margin-right: 3%;
 }
 footer .footer__color .footer__link {
