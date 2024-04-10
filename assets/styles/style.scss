@@ -242,13 +242,13 @@ header{
 footer{
     position: relative;
     z-index: 5;
-    bottom: -250vh;
+    bottom: -200vh;
     font-family: 'marydale';
     color: #FFFFFF;
-
+    width: 100%;
+    background-color: #FFFFFF;
     
     .footer__textinfo {
-        background-color: #FFFFFF;
         font-family: "marydale", sans-serif;
         font-weight: bold;
         margin: 0px 13px 0px 13px;

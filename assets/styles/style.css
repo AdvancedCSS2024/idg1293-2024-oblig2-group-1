@@ -240,9 +240,10 @@ footer {
   bottom: -250vh;
   font-family: "marydale";
   color: #FFFFFF;
+  width: 100%;
+  background-color: #FFFFFF;
 }
 footer .footer__textinfo {
-  background-color: #FFFFFF;
   font-family: "marydale", sans-serif;
   font-weight: bold;
   margin: 0px 13px 0px 13px;
