@@ -176,18 +176,33 @@ header{
     .lefthuman {
         max-width: 17%;
         height: auto;
-        translate: -25%;
+        transform: translateX(-25%);
+        animation-name: human;
+        animation-duration: 3s ;
+        animation-iteration-count: infinite ;
     }
     .middlehuman {
         max-width: 15%;
         height: auto;
-        translate: 20% -15%;
+        transform: translate(20%, -15%);
+        animation-name: human;
+        animation-duration: 3s ;
+        animation-iteration-count: infinite ;
     }
     .righthuman {
         max-width: 20%;
         height: auto;
         left: 100%;
-        translate: 25% -5%;
+        transform: translate(25%, -5%);
+        animation-name: human;
+        animation-duration: 3s ;
+        animation-iteration-count: infinite ;
+    }
+
+    @keyframes human {
+        0% {right: -7vw;}
+        50% {right:-5vw;}
+        100% {right: -7vw;}
     }
 
 
