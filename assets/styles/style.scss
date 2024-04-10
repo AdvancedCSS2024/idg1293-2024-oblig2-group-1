@@ -215,14 +215,14 @@ header{
         }
     }
 
-.planetearth--img {
+
     .qrcode {
         position: absolute;
-        width: 125px;
+        width: 6vw;
         height: auto;
-        transform: translateY(116vw);
+        bottom: 50vh;
     }
-}
+
 
 @keyframes globerotate {
     0% {
@@ -243,7 +243,7 @@ header{
 footer{
     position: relative;
     z-index: 5;
-    bottom: -100vw;
+    bottom: -120vw;
     font-family: 'marydale';
     color: #FFFFFF;
     width: 100%;

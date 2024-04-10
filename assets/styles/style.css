@@ -219,11 +219,11 @@ header .ball {
     transform: translateY(-2vw) rotate(-5deg);
   }
 }
-.planetearth--img .qrcode {
+.qrcode {
   position: absolute;
-  width: 125px;
+  width: 6vw;
   height: auto;
-  transform: translateY(116vw);
+  bottom: 50vh;
 }
 
 @keyframes globerotate {
@@ -245,7 +245,7 @@ header .ball {
 footer {
   position: relative;
   z-index: 5;
-  bottom: -100vw;
+  bottom: -120vw;
   font-family: "marydale";
   color: #FFFFFF;
   width: 100%;
