@@ -195,14 +195,20 @@ header{
         left: 100%;
         transform: translate(25%, -5%);
         animation-name: human;
-        animation-duration: 3s ;
-        animation-iteration-count: infinite ;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
     }
 
     @keyframes human {
-        0% {right: -7vw;}
-        50% {right:-5vw;}
-        100% {right: -7vw;}
+        0% {
+            transform: translateY(-2vw) rotate(-5deg);
+        }
+        50% {
+            transform: translateY(-1vw) rotate(10deg);
+        }
+        100% {
+            transform: translateY(-2vw) rotate(-5deg);
+        }
     }
 
 
@@ -254,7 +260,8 @@ footer{
     position: relative;
     z-index: 5;
     bottom: -140vh;
-       
+    font-family: 'marydale';
+    color: #FFFFFF;
     
     .footer__textinfo {
         background-color: #FFFFFF;
