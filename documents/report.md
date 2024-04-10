@@ -12,11 +12,11 @@ First we tried to draw the background "waves" in css, but realised after som tim
 We ended up using relative positioning on the fist wave and absolute on the other to align them correctly. We used the "vw" value in order to keep the proportions scaled for the document view window
 
 # Animated elements
-    Moon: Here we used keyframes where the positioning is moved during the animation. We wanted an effect the it appears that the mmon is floating in the air. and we think it turned out alright.
-    Stars: Here we used css transform size in order to scale up and down the size of the svg images to create a pulsating animation making the stars "blink".
-    Car: Here we changed the code internally of the svg making a group with the paths for ouline, fill and window of the car transform up and down a tiny amount. We did this to make it look like the engine of the car is on, and that the car is driving towards the moon.
-    Humans: Here we used to forms of css animation. One where we rotate them a couple of degrees so it looks like they are walking/dancing on top of the globe. Another that translate the Y-axis so they move up and down a small amount.
-    Globe: Here we did a simple rotate animation that turns the earth around 360degrees a period of time so earth is rotating. further giving into the illusion that the people on top are walking along the surface.
+- Moon: Here we used keyframes where the positioning is moved during the animation. We wanted an effect the it appears that the mmon is floating in the air. and we think it turned out alright.
+- Stars: Here we used css transform size in order to scale up and down the size of the svg images to create a pulsating animation making the stars "blink".
+- Car: Here we changed the code internally of the svg making a group with the paths for ouline, fill and window of the car transform up and down a tiny amount. We did this to make it look like the engine of the car is on, and that the car is driving towards the moon.
+- Humans: Here we used to forms of css animation. One where we rotate them a couple of degrees so it looks like they are walking/dancing on top of the globe. Another that translate the Y-axis so they move up and down a small amount.
+- Globe: Here we did a simple rotate animation that turns the earth around 360degrees a period of time so earth is rotating. further giving into the illusion that the people on top are walking along the surface.
 
 # css drawing:
 On the first attempt we tried draw the background waves in css, but it ended up to be difficult to scale properly. insted we chose to draw the ntnu-logo in the footer with css. the logo has the class "ntnu-logo" and uses psuedoelements ::before and ::after in order to draw the squere and circle for the logo.
