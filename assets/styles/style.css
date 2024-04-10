@@ -216,6 +216,7 @@ header p {
 .planetearth--img .qrcode {
   width: 125px;
   height: auto;
+  transform: translate(0%, 1400%);
 }
 
 @keyframes globerotate {
