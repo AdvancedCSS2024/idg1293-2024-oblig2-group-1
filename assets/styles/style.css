@@ -237,7 +237,7 @@ header p {
 footer {
   position: relative;
   z-index: 5;
-  bottom: -140vh;
+  bottom: -250vh;
   font-family: "marydale";
   color: #FFFFFF;
 }
@@ -246,6 +246,7 @@ footer .footer__textinfo {
   font-family: "marydale", sans-serif;
   font-weight: bold;
   margin: 0px 13px 0px 13px;
+  color: black;
 }
 footer .footer__color {
   background-color: #005BA7;

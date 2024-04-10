@@ -243,7 +243,6 @@ footer{
     position: relative;
     z-index: 5;
     bottom: -250vh;
-    bottom: -140vh;
     font-family: 'marydale';
     color: #FFFFFF;
 
@@ -253,6 +252,7 @@ footer{
         font-family: "marydale", sans-serif;
         font-weight: bold;
         margin: 0px 13px 0px 13px;
+        color: black;
     }
     .footer__color {
         background-color: #005BA7;
