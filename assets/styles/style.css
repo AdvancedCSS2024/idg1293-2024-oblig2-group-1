@@ -177,22 +177,42 @@ header p {
 .lefthuman {
   max-width: 17%;
   height: auto;
-  translate: -25%;
+  transform: translateX(-25%);
+  animation-name: human;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .middlehuman {
   max-width: 15%;
   height: auto;
-  translate: 20% -15%;
+  transform: translate(20%, -15%);
+  animation-name: human;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
 .righthuman {
   max-width: 20%;
   height: auto;
   left: 100%;
-  translate: 25% -5%;
+  transform: translate(25%, -5%);
+  animation-name: human;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
 }
 
+@keyframes human {
+  0% {
+    transform: translateY(-2vw) rotate(-5deg);
+  }
+  50% {
+    transform: translateY(-1vw) rotate(10deg);
+  }
+  100% {
+    transform: translateY(-2vw) rotate(-5deg);
+  }
+}
 .planet__earth .planet__earth--img .qrcode {
   width: 125px;
   height: auto;
@@ -218,6 +238,8 @@ footer {
   position: relative;
   z-index: 5;
   bottom: -250vh;
+  font-family: "marydale";
+  color: #FFFFFF;
 }
 footer .footer__textinfo {
   background-color: #FFFFFF;
